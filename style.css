@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+h1 { text-align: center; }
+form { display: grid; gap: 10px; margin-bottom: 25px; }
+input, button {
+    padding: 10px;
+    font-size: 15px;
+}
+button {
+    cursor: pointer;
+}
+.secondary {
+    background: #ddd;
+    border: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.actions button {
+    margin-right: 5px;
+}
